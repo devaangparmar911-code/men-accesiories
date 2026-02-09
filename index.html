@@ -1,15 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Men's Accessories Store</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Men's Accessory Hub | Premium Style</title>
 
-  <!-- Google Font -->
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome -->
+  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- CSS -->
@@ -18,81 +17,79 @@
 
 <body>
 
+<!-- HEADER -->
 <header class="header">
-  <div class="container">
-    <h1 class="logo">Men's Accessory Hub</h1>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#categories">Categories</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="cart">
-      <i class="fa-solid fa-cart-shopping"></i>
-    </div>
-  </div>
+  <h1>Men's Accessory Hub</h1>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#categories">Categories</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section id="home" class="hero">
-  <h2>Premium Men’s Accessories</h2>
-  <p>Upgrade your style with watches, belts & more</p>
-  <a href="#shop" class="btn">Shop Now</a>
+<!-- HERO -->
+<section class="hero">
+  <h2>Premium Men's Accessories</h2>
+  <p>Watches • Wallets • Belts • Sunglasses</p>
+  <button>Shop Now</button>
 </section>
 
-<section id="shop" class="products">
+<!-- PRODUCTS -->
+<section id="products" class="products">
   <h2>Featured Products</h2>
 
   <div class="product-grid">
 
-    <div class="product">
+    <div class="product-card">
       <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314" alt="Watch">
       <h3>Luxury Watch</h3>
-      <p>$149.99</p>
+      <p>₹3,999</p>
       <button>Add to Cart</button>
     </div>
 
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1620799139652-715b1a5b8f76" alt="Belt">
-      <h3>Leather Belt</h3>
-      <p>$39.99</p>
-      <button>Add to Cart</button>
-    </div>
-
-    <div class="product">
+    <div class="product-card">
       <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62" alt="Wallet">
       <h3>Leather Wallet</h3>
-      <p>$29.99</p>
+      <p>₹999</p>
       <button>Add to Cart</button>
     </div>
 
-    <div class="product">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1620799139652-715b1a5b8f76" alt="Belt">
+      <h3>Men's Belt</h3>
+      <p>₹799</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
       <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f" alt="Sunglasses">
       <h3>Sunglasses</h3>
-      <p>$59.99</p>
+      <p>₹1,299</p>
       <button>Add to Cart</button>
     </div>
 
   </div>
 </section>
 
+<!-- CATEGORIES -->
 <section id="categories" class="categories">
-  <h2>Shop by Category</h2>
+  <h2>Categories</h2>
+
   <div class="category-grid">
-    <div>⌚ Watches</div>
-    <div>🧢 Caps</div>
-    <div>🕶 Sunglasses</div>
-    <div>💍 Rings</div>
+    <div class="category">⌚ Watches</div>
+    <div class="category">👛 Wallets</div>
+    <div class="category">🕶 Sunglasses</div>
+    <div class="category">👔 Belts</div>
   </div>
 </section>
 
-<footer class="footer">
+<!-- FOOTER -->
+<footer id="contact" class="footer">
   <p>© 2026 Men's Accessory Hub</p>
   <div class="social">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-x-twitter"></i></a>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-x-twitter"></i>
   </div>
 </footer>
 
