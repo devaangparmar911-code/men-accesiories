@@ -269,3 +269,26 @@ section {
         font-size: 2.1rem;
     }
 }
+/* IMAGE HARD FIX */
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #eee;
+    display: block;
+}
+
+/* CARD STRUCTURE FIX */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* BUTTON NORMAL SIZE */
+.add-to-cart {
+    margin-top: auto;
+    height: 42px;
+    border-radius: 999px;
+}
