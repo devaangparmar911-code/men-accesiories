@@ -302,3 +302,68 @@ button {
     grid-template-columns: 1fr;
   }
 }
+/* ===== FIX OVERRIDES ===== */
+
+/* HERO TEXT BIGGER */
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+/* SECTION HEADINGS */
+.featured-products h2,
+.categories h2 {
+  font-size: 2.6rem;
+}
+
+/* PRODUCT CARD FIX */
+.product-card {
+  max-width: 300px;
+  margin: auto;
+}
+
+.product-card img {
+  height: 180px;      /* image chhoti */
+}
+
+/* PRODUCT TEXT BIGGER */
+.product-card h3 {
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+}
+
+/* BUTTON */
+.add-to-cart {
+  font-size: 1rem;
+  padding: 12px;
+}
+
+/* CATEGORY IMAGE FIX */
+.category-card img {
+  height: 120px;
+}
+
+/* NAV TEXT */
+.nav-links a {
+  font-size: 1.05rem;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .product-card {
+    max-width: 100%;
+  }
